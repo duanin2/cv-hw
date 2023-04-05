@@ -1,0 +1,22 @@
+        body {
+            background-color: rgb(225,221,221);
+        }
+            .wrapper {
+                background-color: white;
+                width: 85vw;
+                margin:auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding:10px;
+                border:2PX solid black
+                
+            }
+            .r {
+                float:right;
+                padding:10px;
+            }
+            .l {
+                float:left;
+                padding:10px;
+            }
+            
