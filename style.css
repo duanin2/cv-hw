@@ -1,0 +1,30 @@
+.container {
+  background: url("img/background.png");
+}
+
+.kniha,
+.mapa,
+.knihovna,
+.kriz {
+  width: 75px;
+  height: 75px;
+
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.kniha {
+  background-color: red;
+}
+
+.mapa {
+  background-color: green;
+}
+
+.knihovna {
+  background-color: blue;
+}
+
+.kriz {
+  background-color: yellow;
+}
