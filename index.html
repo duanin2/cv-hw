@@ -5,15 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jan Amos Komenský</title>
-        <link rel="stylesheet" href="clanky.css">
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet"> 
     </head>
     <body>
+        <h1>Jan Ámos Komenský</h1>
         <div class="container">
-            <div class="kniha" onclick="location.href='zivotopis.html'"><img src="img/book.png" alt="Kniha"></div>
-            <div class="mapa" onclick="alert('b')"><img src="img/map.png" alt="Mapa"></div>
-            <div class="knihovna" onclick="location.href='knihy.html'"><img src="img/bookshelf.png" alt="Knihovna"></div>
-            <div class="kriz" onclick="location.href='cirkev.html'"><img src="img/cross.png" alt="Křesťanský kříž"></div>
+            <div class="link" onclick="location.href='zivotopis.html'">Životopis</div>
+            <div class="link" onclick="location.href='mapa.html'">Mapa jeho cest</div>
+            <div class="link" onclick="location.href='knihy.html'">Literární díla</div>
+            <div class="link" onclick="location.href='cirkev.html'">Působení v církvi</div>
         </div>
+        <script>
+           /* document.getElementsByClassName('container')[0].style.height=window.innerHeight.toString()+"px"
+            addEventListener("resize", () => {
+                document.getElementsByClassName('container')[0].style.height=window.innerHeight.toString()+"px"
+                document.getElementsByClassName('container')[0].style.width=window.innerWidth.toString()+"px"
+            }) */
+
+        </script>
     </body>
 </html>
