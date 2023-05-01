@@ -7,7 +7,7 @@
             .wrapper {
                 position: absolute;
                 left: 50%;
-                top: 10%;
+                top: 8%;
                 padding: 35px;
                 border: 5px solid black;
                 border-radius: 25px 25px 25px 25px;
@@ -15,8 +15,18 @@
                 background:rgba(255, 255, 255, 0.3);
                 font-size: 1em;
                 font-family: 'MedievalSharp', cursive;
-                
+                width: 75%;
             }
+	    button {
+		border: none;
+		border-radius: 25px;
+		padding: 10px 20px;
+		font-size: 0.8em;
+		background: rgba(255, 255, 255, 0.3);
+		font-family: 'MedievalSharp', cursive;
+		float: right;
+		margin: auto;
+	    }
             .r {
                 float:right;
                 padding:10px;
